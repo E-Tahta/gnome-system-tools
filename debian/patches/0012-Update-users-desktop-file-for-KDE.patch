@@ -1,0 +1,26 @@
+From: =?utf-8?q?Yunusemre_=C5=9Eent=C3=BCrk?=
+ <yunusemre.senturk@pardus.org.tr>
+Date: Mon, 19 Nov 2018 12:58:15 +0300
+Subject: Update users desktop file for KDE
+MIME-Version: 1.0
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 8bit
+
+Signed-off-by: Yunusemre Şentürk <yunusemre.senturk@pardus.org.tr>
+---
+ src/users/users.desktop.in.in | 2 ++
+ 1 file changed, 2 insertions(+)
+
+diff --git a/src/users/users.desktop.in.in b/src/users/users.desktop.in.in
+index df591af..86078fe 100644
+--- a/src/users/users.desktop.in.in
++++ b/src/users/users.desktop.in.in
+@@ -2,6 +2,8 @@
+ Version=1.0
+ _Name=Users and Groups
+ _Comment=Add or remove users and groups
++GenericName=Local User Management
++GenericName[tr]=Yerel Kullanıcı Yönetimi
+ Exec=users-admin
+ Icon=config-users
+ Terminal=false
