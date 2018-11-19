@@ -10,7 +10,10 @@ LDFLAGS += -Wl,-z,defs -Wl,-O1
 
 DEB_CONFIGURE_EXTRA_FLAGS += --disable-schemas-install \
 	--disable-nautilus \
-	--disable-scrollkeeper
+	--disable-scrollkeeper \
+	--disable-network \
+	--disable-services \
+	--disable-time
 
 TARBALL_EXT = tar.bz2
 
